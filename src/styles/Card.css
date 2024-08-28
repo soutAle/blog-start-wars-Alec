@@ -4,11 +4,13 @@
     background-color: rgba(255, 255, 255, 0.2); 
     border: none;
     transition: box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+    filter: blur(3px) grayscale(100%);
 }
 
 
 .card:hover {
     box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+    filter: blur(0px) grayscale(0%);
 }
 
 .card-title {
@@ -49,7 +51,7 @@
 }
 
 .btn-likes {
-    background-color: rgb(255, 0, 0); /* Mismo tratamiento para el fondo */
+    background-color: rgb(250, 142, 142); /* Mismo tratamiento para el fondo */
     color: white;
     border: 1px solid rgba(255, 254, 254, 0.5);
     width: 110px; /* Mantiene el tamaño fijo del botón */

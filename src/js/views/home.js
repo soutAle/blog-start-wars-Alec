@@ -24,7 +24,7 @@ export const Home = () => {
         <>
             <div className="container mt-4">
                 <button
-                    className="btn btn-secondary"
+                    className="btn btn-secondary btn-favoritos"
                     type="button"
                     data-bs-toggle="modal"
                     data-bs-target="#favoritesModal"

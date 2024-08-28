@@ -65,5 +65,56 @@ body {
     background-color: black;
  }
 
+/* Centrar el botón de favoritos */
+.btn-favoritos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 20px; /* Ajusta el margen superior según lo necesites */
+}
 
+/* Estilo del modal */
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    border: none; 
+}
+
+.modal-header {
+    border-bottom: none; 
+}
+
+.modal-footer {
+    border-top: none; 
+}
+
+.btn-close {
+    filter: invert(1); 
+}
+
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; 
+    border: none; 
+}
+
+.list-group-item a {
+    color: white; 
+}
+
+.list-group-item a:hover {
+    color: #cccccc; 
+}
+
+.btn-outline-danger {
+    color: white; 
+    border-color: white; 
+}
+
+.btn-outline-danger:hover {
+    background-color: red; 
+    border-color: red; 
+    color: white; 
+}
 
