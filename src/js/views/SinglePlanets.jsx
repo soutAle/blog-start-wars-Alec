@@ -20,12 +20,14 @@ export const SinglePlanets = () => {
                     alt={`avatar`}
                     onClick={() => navigate(`/${type}/${uid}`)}
                 />
-                <h1 className="">{store.planet.name}</h1>
-                <p><strong>Climate:</strong> {store.planet.climate}</p>
-                <p><strong>Diameter:</strong> {store.planet.diameter}</p>
-                <p><strong>Gravity:</strong> {store.planet.gravity}</p>
-                <p><strong>Terrain:</strong> {store.planet.terrain}</p>
-                <p><strong>Population:</strong> {store.planet.population}</p>
+                <div className="card-content">
+                    <h1 className="text-center">{store.planet.name}</h1>
+                    <p><strong>Climate:</strong> {store.planet.climate}</p>
+                    <p><strong>Diameter:</strong> {store.planet.diameter}</p>
+                    <p><strong>Gravity:</strong> {store.planet.gravity}</p>
+                    <p><strong>Terrain:</strong> {store.planet.terrain}</p>
+                    <p><strong>Population:</strong> {store.planet.population}</p>
+                </div>
             </div>
         </div>
     );

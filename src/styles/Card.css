@@ -1,7 +1,67 @@
 
-
-.card-img-top{
-    height: 300px;
+.card {
+    min-height: fit-content;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: none;
+    transition: box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
+
+
+.card:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+}
+
+.card-title {
+    color: white;
+}
+
+.card-img-top {
+    height: 250px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+
+.card:hover .card-img-top {
+    opacity: 1; 
+}
+.card-button-box{
+    position: relative;
+    top: 25px;
+}
+
+
+.container:hover .card:not(:hover) {
+    filter: blur(3px) grayscale(80%); 
+}
+
+.btn-learn {
+    background-color: rgba(247, 255, 2, 0.2); /* Fondo blanco con 20% de opacidad */
+    color: white; /* Texto en blanco para mejor visibilidad */
+    border: 1px solid rgba(255, 254, 254, 0.5); /* Borde con algo de transparencia */
+    padding: 10px 20px; /* Espaciado interior para que sea más cómodo */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Suaviza la transición de color */
+}
+
+.btn-learn:hover {
+    background-color: rgba(255, 254, 254, 0.4); /* Aumenta la opacidad en hover */
+    color: black; /* Cambia el color del texto en hover */
+}
+
+.btn-likes {
+    background-color: rgb(255, 0, 0); /* Mismo tratamiento para el fondo */
+    color: white;
+    border: 1px solid rgba(255, 254, 254, 0.5);
+    width: 110px; /* Mantiene el tamaño fijo del botón */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-likes:hover {
+    background-color: rgba(255, 254, 254, 0.4); /* Aumenta la opacidad en hover */
+    color: black; /* Cambia el color del texto en hover */
+}
+
+
 
 

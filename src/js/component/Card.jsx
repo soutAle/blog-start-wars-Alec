@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router";
 import { Context } from "../store/appContext";
+import "../../styles/Card.css"
 
 export const Card = ({ name, id: uid, type }) => {
     const navigate = useNavigate();
@@ -17,7 +18,7 @@ export const Card = ({ name, id: uid, type }) => {
     };
 
     return (
-        <div className="card" style={{ width: "20rem", margin: "20px" }}>
+        <div className="card" style={{ width: "18rem", margin: "40px" }}>
             <img
                 src={`https://starwars-visualguide.com/assets/img/${type}/${uid}.jpg`}
                 className="card-img-top"
@@ -25,14 +26,14 @@ export const Card = ({ name, id: uid, type }) => {
                 onClick={() => navigate(`/${type}/${uid}`)}
                 style={{ cursor: 'pointer' }}
             />
+            <h5 className="card-title text-center">{name}</h5>
             <div className="card-body text-center">
-                <h5 className="card-title mb-2 text-center">{name}</h5>
-                <div className="d-flex justify-content-between">
-                    <button onClick={() => navigate(`/${type}/${uid}`)} className="btn btn-primary">
+                <div className=" card-button-box d-flex justify-content-between">
+                    <button onClick={() => navigate(`/${type}/${uid}`)} className="btn btn-learn">
                         Learn more
                     </button>
                     <button
-                        className="btn btn-outline-danger"
+                        className="btn btn-danger btn-likes"
                         onClick={handleFavoriteClick}>
                         <i className={`fa-solid fa-heart`} style={{ color: isFavorite ? 'red' : 'gray' }}></i>
                     </button>

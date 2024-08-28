@@ -14,9 +14,9 @@ export const ListCards = () => {
 
     return (
         <>
-            <div className="container mt-4">
-                <h2 className="title">Characters</h2>
-                <div className="list-card d-flex flex-nowrap">
+            <div className="container my-4">
+                <h2 className="title text-center fw-bold text-muted">Characters</h2>
+                <div className="list-card d-flex">
                     {store.characters.map((character) => (
                         <div key={character.uid}>
                             <Card name={character.name}
@@ -27,7 +27,7 @@ export const ListCards = () => {
                 </div>
             </div>
             <div className="container mt-4">
-                <h2 className="title">Planets</h2>
+                <h2 className="title fw-bold text-muted text-center">Planets</h2>
                 <div className="list-card d-flex flex-nowrap">
                     {store.planets.map((planet) => (
                         <div key={planet.uid}>
@@ -38,8 +38,8 @@ export const ListCards = () => {
                     ))}
                 </div>
             </div>
-            <div className="container mt-4">
-                <h2 className="title">Vehicles</h2>
+            <div className="container  mt-4">
+                <h2 className="title fw-bold text-muted text-center">Vehicles</h2>
                 <div className="list-card d-flex flex-nowrap">
                     {store.vehicles.map((vehicle) => (
                         <div key={vehicle.uid}>

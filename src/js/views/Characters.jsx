@@ -19,7 +19,8 @@ export const Characters = () => {
                     <div key={character.uid} >
                         <Card name={character.name}
                               id={character.uid}
-                              type={"characters"} />
+                              type={"characters"}
+                         />
                     </div>
                 ))}
             </div>
