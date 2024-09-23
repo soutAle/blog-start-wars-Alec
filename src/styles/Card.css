@@ -51,7 +51,7 @@
 }
 
 .btn-likes {
-    background-color: rgb(250, 142, 142); 
+    background-color: rgb(252, 3, 3); 
     color: white;
     border: 1px solid rgba(255, 254, 254, 0.5);
     width: 110px; 
@@ -60,7 +60,7 @@
 }
 
 .btn-likes:hover {
-    background-color: rgba(255, 254, 254, 0.4); 
+    background-color: rgba(245, 68, 68, 0.4); 
     color: black;
 }
 

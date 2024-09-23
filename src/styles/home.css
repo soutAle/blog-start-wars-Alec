@@ -65,16 +65,15 @@ body {
     background-color: black;
  }
 
-/* Centrar el botón de favoritos */
+
 .btn-favoritos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto; /* Centrar horizontalmente */
-    margin-top: 20px; /* Ajusta el margen superior según lo necesites */
+    margin: 0 auto; 
+    margin-top: 20px; 
 }
 
-/* Estilo del modal */
 .modal-content {
     background-color: rgba(0, 0, 0, 0.8); 
     color: white; 

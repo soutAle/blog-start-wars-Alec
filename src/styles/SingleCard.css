@@ -1,4 +1,3 @@
-/* Estilos para la imagen */
 .card-img-top-single {
     position: relative;
     width: 100%; 
@@ -36,7 +35,6 @@
     width: 100%; 
 }
 
-/* Estilos adicionales */
 h1 {
     color: white;
     margin-bottom: 10px; 
