@@ -38,30 +38,30 @@
 }
 
 .btn-learn {
-    background-color: rgba(247, 255, 2, 0.2); /* Fondo blanco con 20% de opacidad */
-    color: white; /* Texto en blanco para mejor visibilidad */
-    border: 1px solid rgba(255, 254, 254, 0.5); /* Borde con algo de transparencia */
-    padding: 10px 20px; /* Espaciado interior para que sea más cómodo */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Suaviza la transición de color */
+    background-color: rgba(247, 255, 2, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 254, 254, 0.5); 
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .btn-learn:hover {
-    background-color: rgba(255, 254, 254, 0.4); /* Aumenta la opacidad en hover */
-    color: black; /* Cambia el color del texto en hover */
+    background-color: rgba(255, 254, 254, 0.4); 
+    color: black; 
 }
 
 .btn-likes {
-    background-color: rgb(250, 142, 142); /* Mismo tratamiento para el fondo */
+    background-color: rgb(250, 142, 142); 
     color: white;
     border: 1px solid rgba(255, 254, 254, 0.5);
-    width: 110px; /* Mantiene el tamaño fijo del botón */
+    width: 110px; 
     padding: 10px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn-likes:hover {
-    background-color: rgba(255, 254, 254, 0.4); /* Aumenta la opacidad en hover */
-    color: black; /* Cambia el color del texto en hover */
+    background-color: rgba(255, 254, 254, 0.4); 
+    color: black;
 }
 
 
