@@ -9,7 +9,7 @@ export const Characters = () => {
 
     useEffect(() => {
         actions.getCharacters();
-    }, [actions]);
+    }, []);
 
     return (
         <div>

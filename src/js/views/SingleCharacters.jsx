@@ -9,7 +9,7 @@ export const SingleCharacters = () => {
 
     useEffect(() => {
         actions.getChar(uid);
-    }, [actions, uid]);
+    }, []);
 
     return (
         <div className="container text-center">

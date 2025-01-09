@@ -9,7 +9,7 @@ export const SingleVehicles = () => {
 
     useEffect(() => {
         actions.getVehicle(uid);
-    }, [actions, uid]);
+    }, []);
 
     return (
         <div className="container">

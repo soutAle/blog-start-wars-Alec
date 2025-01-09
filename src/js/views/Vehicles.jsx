@@ -9,7 +9,7 @@ export const Vehicles = () => {
 
     useEffect(() => {
         actions.getVehicles();
-    }, [actions]);
+    }, []);
 
     return (
         <div>

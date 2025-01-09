@@ -9,7 +9,7 @@ export const SinglePlanets = () => {
 
     useEffect(() => {
         actions.getPlanet(uid);
-    }, [actions, uid]);
+    }, []);
 
     return (
         <div className="container">

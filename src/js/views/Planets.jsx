@@ -9,7 +9,7 @@ export const Planets = () => {
 
     useEffect(() => {
         actions.getPlanets();
-    }, [actions]);
+    }, []);
 
     return (
         <div>

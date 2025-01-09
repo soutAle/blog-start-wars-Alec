@@ -10,7 +10,7 @@ export const ListCards = () => {
         actions.getCharacters();
         actions.getPlanets();
         actions.getVehicles();
-    }, [actions]);
+    }, []);
 
     return (
         <>

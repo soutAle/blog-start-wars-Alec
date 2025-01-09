@@ -10,7 +10,7 @@ export const Home = () => {
         actions.getCharacters();
         actions.getPlanets();
         actions.getVehicles();
-    }, [actions]);
+    }, []);
 
     const chunkArray = (array, size) => {
         const chunkedArr = [];
