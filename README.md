@@ -1,3 +1,5 @@
+![Texto alternativo](https://i.blogs.es/3330bf/19c0uzmi9bmv1jpg/original.jpg)
+
 # Star Wars Blog
 
 ¡Bienvenido al **Star Wars Blog**! 🚀  
