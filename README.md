@@ -3,7 +3,7 @@
 ¡Bienvenido al **Star Wars Blog**! 🚀  
 Un proyecto desarrollado con React que utiliza una API externa para mostrar información del universo de Star Wars. Incluye manejo de estado global, hooks, rutas y más.
 
-## Características 🌟
+## Características ⚙️
 
 - **Consumo de API externa**: Llamadas a la API pública de Star Wars (SWAPI) para obtener datos sobre personajes, planetas y naves espaciales.
 - **Gestión de estado global**: Implementación de Context API y Flux para centralizar el manejo de datos.
